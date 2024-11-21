@@ -7,7 +7,10 @@ html {
  box-sizing: border-box;
 }
 .container {
- padding: 2rem 5%;
+ padding: 1rem 5%;
+}
+@media screen and (max-width:1100px) {
+ .image-container {max-width:50%;}
 }
 #navbar {
  top: 0;
@@ -33,13 +36,14 @@ html {
 }
 .socbar {
  width: 50%;
- gap: 1.4rem;
+ gap: .175em;
  float: right;
  display: flex;
  justify-content: flex-end;
+ align-items: center;
+ overflow: hidden;
 }
 .container .image-container {
- width: 50%;
  float: left;
 }
 .container .image-container img {
@@ -47,18 +51,22 @@ html {
  height: auto;
 }
 .container .text-container {
- width: 50%;
- float: right;
+ float: left;
+ justify-content: center;
+ align-items: center;
+ text-align: left;
 }
 .socbar a {
- margin: 1rem;
  display: inline-block;
- color: white;
+ color: #FFFFFF;
+ margin: 0rem 1rem;
 }
 .socbar a:hover {
  color: #7a766a;
 }
 #footer {
+ background-color: #000000;
+ text-align: center;
  width: 100%;
  bottom: 0;
 }
