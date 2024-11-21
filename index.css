@@ -1,3 +1,64 @@
 html {
  background-color: #080808;
 }
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.container {
+ padding: 2rem 5%;
+}
+#navbar {
+ top: 0;
+ position: sticky;
+ background-color: #000000;
+ width: 100%;
+ text-align: center;
+ display: flex;
+}
+.header {
+ justify-content: center;
+ text-align: center;
+ background-color: #000000;
+ width: 100%;
+}
+.menbar {
+ width: 50%;
+ gap: 1.4rem;
+ float: left;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+.socbar {
+ width: 50%;
+ gap: 1.4rem;
+ float: right;
+ display: flex;
+ justify-content: flex-end;
+}
+.container .image-container {
+ width: 50%;
+ float: left;
+}
+.container .image-container img {
+ width: 100%;
+ height: auto;
+}
+.container .text-container {
+ width: 50%;
+ float: right;
+}
+.socbar a {
+ margin: 1rem;
+ display: inline-block;
+ color: white;
+}
+.socbar a:hover {
+ color: #7a766a;
+}
+#footer {
+ width: 100%;
+ bottom: 0;
+}
