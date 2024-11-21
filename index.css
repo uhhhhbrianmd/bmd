@@ -9,7 +9,7 @@ html {
 .container {
  padding: 1rem 5%;
 }
-@media screen and (max-width:1100px) {
+@media screen and (min-width:1100px) {
  .image-container {max-width:50%;}
 }
 #navbar {
